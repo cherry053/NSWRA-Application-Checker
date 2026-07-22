@@ -28,6 +28,8 @@ def _image_data_uri(*relative_path: str) -> str:
     return f"data:image/png;base64,{encoded}"
 
 
+st.page_link("app.py", label="Back to Grant Application Quality Checker", icon=":material/arrow_back:")
+
 _LOGO_SRC = _image_data_uri("guide", "images", "nsw-ra-logo.png")
 _STEP1_SRC = _image_data_uri("guide", "images", "step1-download-pdf.png")
 _STEP2_SRC = _image_data_uri("guide", "images", "step2-upload-pdf.png")
