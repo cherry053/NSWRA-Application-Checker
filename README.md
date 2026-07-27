@@ -2,6 +2,20 @@
 Updated version with upload pre-checks: a single-PDF upload (100MB limit) and
 screening of the pasted damage table before the full analysis runs.
 
+## Documentation
+
+This README is the developer-facing overview. The full handover pack lives in
+[`docs/`](docs/):
+
+- **[Handover](docs/HANDOVER.md)** — the complete handover record: what the
+  system is, what is included, architecture, risks, and the acceptance checklist.
+- **[Validation Register](docs/VALIDATION-REGISTER.md)** — every validation
+  applied, with its rule, threshold, severity, and code location.
+- **[Installation Guide](docs/INSTALLATION.md)** — local, server, cloud and
+  container deployment, configuration, verification, troubleshooting.
+- **[Maintenance Guide](docs/MAINTENANCE.md)** — how NSWRA keeps the system
+  healthy: calendar, roles, dependency updates, diagnostics, safe changes.
+
 ## How it works
 
 The checker takes two inputs from the upload page:
